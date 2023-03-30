@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'paperflite';
+    src:  url('fonts/paperflite.eot?sqh1j9');
+    src:  url('fonts/paperflite.eot?sqh1j9#iefix') format('embedded-opentype'),
+      url('fonts/paperflite.ttf?sqh1j9') format('truetype'),
+      url('fonts/paperflite.woff?sqh1j9') format('woff'),
+      url('fonts/paperflite.svg?sqh1j9#paperflite') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="paperflite-"], [class*=" paperflite-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'paperflite' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .paperflite-ppt:before {
+    content: "\e92e";
+  }
+  .paperflite-image:before {
+    content: "\e930";
+  }
+  .paperflite-doc:before {
+    content: "\e948";
+  }
+  .paperflite-video:before {
+    content: "\e94b";
+  }
+  .paperflite-circle-tick:before {
+    content: "\e92c";
+  }
+  .paperflite-geo-location:before {
+    content: "\e92f";
+  }
+  .paperflite-pdf:before {
+    content: "\e947";
+  }
+  .paperflite-circle:before {
+    content: "\e94a";
+  }
+  .paperflite-usergroup:before {
+    content: "\e92b";
+  }
+  .paperflite-streams-collections:before {
+    content: "\e904";
+  }
+  .paperflite-filter:before {
+    content: "\e916";
+  }
+  .paperflite-invitations:before {
+    content: "\e913";
+  }
+  .paperflite-user:before {
+    content: "\e92d";
+  }
+  .paperflite-minus:before {
+    content: "\e92a";
+  }
+  .paperflite-engagement-reports:before {
+    content: "\e917";
+  }
+  .paperflite-add-pages:before {
+    content: "\e90f";
+  }
+  .paperflite-user-groups:before {
+    content: "\e915";
+  }
+  .paperflite-collection-reports:before {
+    content: "\e949";
+  }
+  .paperflite-click-rate:before {
+    content: "\e910";
+  }
+  .paperflite-timespent:before {
+    content: "\e918";
+  }
+  .paperflite-engagement:before {
+    content: "\e919";
+  }
+  .paperflite-leads:before {
+    content: "\e920";
+  }
+  .paperflite-no-deals:before {
+    content: "\e927";
+  }
+  .paperflite-down-arrow:before {
+    content: "\e945";
+  }
+  .paperflite-back-arrow:before {
+    content: "\e946";
+  }
+  .paperflite-edit-image:before {
+    content: "\e943";
+  }
+  .paperflite-lock:before {
+    content: "\e944";
+  }
+  .paperflite-banner:before {
+    content: "\e937";
+  }
+  .paperflite-calendar:before {
+    content: "\e938";
+  }
+  .paperflite-circle-right:before {
+    content: "\e939";
+  }
+  .paperflite-clock:before {
+    content: "\e93a";
+  }
+  .paperflite-collaborate:before {
+    content: "\e93b";
+  }
+  .paperflite-crop:before {
+    content: "\e93c";
+  }
+  .paperflite-edit:before {
+    content: "\e93d";
+  }
+  .paperflite-get-link:before {
+    content: "\e93e";
+  }
+  .paperflite-live-collection:before {
+    content: "\e93f";
+  }
+  .paperflite-position:before {
+    content: "\e940";
+  }
+  .paperflite-share:before {
+    content: "\e941";
+  }
+  .paperflite-template:before {
+    content: "\e942";
+  }
+  .paperflite-asset-table:before {
+    content: "\e908";
+  }
+  .paperflite-content-url:before {
+    content: "\e909";
+  }
+  .paperflite-drag-drop:before {
+    content: "\e90a";
+  }
+  .paperflite-link:before {
+    content: "\e90b";
+  }
+  .paperflite-text-link:before {
+    content: "\e90c";
+  }
+  .paperflite-delete:before {
+    content: "\e90d";
+  }
+  .paperflite-eye:before {
+    content: "\e90e";
+  }
+  .paperflite-email-open:before {
+    content: "\e911";
+  }
+  .paperflite-resend:before {
+    content: "\e912";
+  }
+  .paperflite-discovery:before {
+    content: "\e914";
+  }
+  .paperflite-member:before {
+    content: "\e91a";
+  }
+  .paperflite-performance:before {
+    content: "\e91b";
+  }
+  .paperflite-popular-viewers:before {
+    content: "\e91c";
+  }
+  .paperflite-sales-value:before {
+    content: "\e91d";
+  }
+  .paperflite-search-reports:before {
+    content: "\e91e";
+  }
+  .paperflite-tags:before {
+    content: "\e91f";
+  }
+  .paperflite-asset:before {
+    content: "\e921";
+  }
+  .paperflite-campaign:before {
+    content: "\e922";
+  }
+  .paperflite-content-shared:before {
+    content: "\e923";
+  }
+  .paperflite-conversation-reports:before {
+    content: "\e924";
+  }
+  .paperflite-deals:before {
+    content: "\e925";
+  }
+  .paperflite-leads-generated:before {
+    content: "\e926";
+  }
+  .paperflite-top-accounts:before {
+    content: "\e928";
+  }
+  .paperflite-top-user:before {
+    content: "\e929";
+  }
+  .paperflite-analytics:before {
+    content: "\e931";
+  }
+  .paperflite-clone:before {
+    content: "\e932";
+  }
+  .paperflite-download:before {
+    content: "\e933";
+  }
+  .paperflite-more:before {
+    content: "\e934";
+  }
+  .paperflite-upload:before {
+    content: "\e935";
+  }
+  .paperflite-members:before {
+    content: "\e936";
+  }
+  .paperflite-add:before {
+    content: "\e900";
+  }
+  .paperflite-close:before {
+    content: "\e901";
+  }
+  .paperflite-grid:before {
+    content: "\e902";
+  }
+  .paperflite-list:before {
+    content: "\e903";
+  }
+  .paperflite-notifications:before {
+    content: "\e905";
+  }
+  .paperflite-right-arrow:before {
+    content: "\e906";
+  }
+  .paperflite-search:before {
+    content: "\e907";
+  }
+  
