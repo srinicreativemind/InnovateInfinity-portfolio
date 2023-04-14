@@ -24,11 +24,11 @@
   z-index: 20;
 }
 
-@media (min-width: 992px) {
+/* @media (min-width: 992px) {
   #home {
     height: calc(100% - 65px);
   }
-}
+} */
 
 /** BG Default */
 #home.home-bg-static {
@@ -442,9 +442,13 @@ footer ul>li a i {
   padding-top: 14px;
 }
 
-@media screen and (min-width: 992px) {
+section {
+  padding: 20px 0 !important;
+}
+
+@media screen and (max-width: 992px) {
   section {
-    padding: 50px 0 !important;
+    padding: 20px 0 !important;
   }
 }
 
@@ -470,6 +474,31 @@ footer ul>li a i {
 @media screen and (max-width: 992px) {
   .card-body h4{
     font-size: 0.925em;
+  }
+}
+@media screen and (max-width: 992px) {
+  .engineer{
+    font-size: 1.6em !important;
+    margin: 0 !important;
+  }
+}
+
+.description{
+  font-size: 1.2em !important;
+  line-height: 40px !important;
+}
+
+@media screen and (max-width: 992px) {
+  .description{
+    margin: 0 !important;
+    line-height: 26px !important;
+    font-size: 1em !important;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .title-extra-large{
+    font-size: 1.8em !important;
   }
 }
 
@@ -622,6 +651,13 @@ footer ul>li a i {
 .outlook_plugin{
   position: absolute;
   right: 6px;
+}
+
+@media screen and (max-width: 992px) {
+  .queue_management{
+    position: absolute !important;
+    right: -14px !important;
+  }
 }
 
 /* Define the animation */
