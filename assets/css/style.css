@@ -681,6 +681,9 @@ section {
   transform: scale(0.9);
 }
 
+.nowrap{
+  white-space: nowrap !important;
+}
 
 
 
